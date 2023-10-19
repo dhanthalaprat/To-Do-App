@@ -1,0 +1,25 @@
+GET http://localhost:5001/todos
+
+###
+POST  http://localhost:5001/todo/new
+Content-Type: application/json
+
+{
+    "text":"stupid pratyu..get lost"
+}
+
+###
+PUT  http://localhost:5001/todo/complete
+Content-Type: application/json
+
+{
+    "id":"653070c270f21439026de104"
+}
+
+###
+DELETE http://localhost:5001/todo/delete
+Content-Type: application/json
+
+{
+    "id":"65306e94d20cf2385889087d"
+}
